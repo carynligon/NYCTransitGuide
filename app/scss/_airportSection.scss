@@ -1,0 +1,72 @@
+.airport-section, .cab-section {
+  border-bottom: 3px solid $gray;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 26px;
+  padding: 8rem 13%;
+  h3 {
+    font-size: 42px;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  h4 {
+    color: $gray;
+    font-size: 10rem;
+    margin: 0;
+    text-align: center;
+    &::after {
+      border-bottom: 5px solid $primaryColor;
+      content: '';
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: 5rem;
+      width: 50px;
+    }
+  }
+  svg {
+    display: block;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 3rem;
+    width: 80px;
+  }
+  .airport-content, .cabs-content {
+    margin-top: 7rem;
+    .left-arrow, .right-arrow {
+      height: 25px;
+      width: 25px;
+    }
+    .left-arrow {
+      position: absolute;
+      top: 131rem;
+      left: 53.5%;
+    }
+    .right-arrow {
+      position: absolute;
+      top: 131rem;
+      right: 10%;
+    }
+    figure {
+      background: $white;
+      float: right;
+      margin: 0 0 3rem 4rem;
+      width: 400px;
+      figcaption {
+        padding: 1.25rem;
+      }
+      p {
+        margin: 0;
+      }
+      p:last-child {
+        font-weight: lighter;
+      }
+      img {
+        height: 375px;
+        width: 400px;
+      }
+    }
+  }
+}

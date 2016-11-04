@@ -1,8 +1,11 @@
 @import 'variables';
 @import 'header';
 @import 'categories';
+@import 'airportSection';
+@import 'cabSection';
 
 body {
+  background: rgba($gray, 0.1);
   color: $primaryText;
   font-family: Helvetica, sans-serif;
   margin: 0;
