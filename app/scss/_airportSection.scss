@@ -1,4 +1,4 @@
-.airport-section, .cab-section {
+.airport-section, .cab-section, .subway-section {
   border-bottom: 3px solid $gray;
   font-size: 16px;
   font-weight: lighter;
@@ -33,7 +33,7 @@
     top: 3rem;
     width: 80px;
   }
-  .airport-content, .cabs-content {
+  .airport-content, .cabs-content, .subway-content {
     margin-top: 7rem;
     .left-arrow, .right-arrow {
       height: 25px;

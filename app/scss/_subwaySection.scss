@@ -1,0 +1,40 @@
+.subway-section {
+  svg {
+    height: 50px;
+    margin-bottom: 1rem;
+    width: 50px;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  h6 {
+    font-size: 20px;
+    margin: 0.75rem 0;
+  }
+  .how-to-intro {
+    text-align: center;
+  }
+}
+
+.subway-how-to-wrapper {
+  margin-top: 3rem;
+  .subway-how-to {
+    box-sizing: border-box;
+    display: table-cell;
+    float: left;
+    // padding: 1.5rem;
+    vertical-align: top;
+    width: 50%;
+    &:nth-child(1), &:nth-child(3) {
+      padding-right: 1.5rem;
+    }
+    &:nth-child(2), &:nth-child(4) {
+      padding-left: 1.5rem;
+    }
+  }
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
