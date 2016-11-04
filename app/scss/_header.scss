@@ -1,0 +1,23 @@
+header {
+  background-image: url('/assets/images/bg-nyc.png');
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  color: $white;
+  height: 98vh;
+  padding: 3rem 10%;
+  img {
+    width: 125px;
+  }
+  h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-top: 13rem;
+  }
+  p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 75%;
+  }
+}
