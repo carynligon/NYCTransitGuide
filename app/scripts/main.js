@@ -1,6 +1,8 @@
+import $ from 'jquery';
 import header from './header';
+import categories from './categories';
 
-// const container = document.getElementById('container');
+const container = document.getElementById('container');
 //
 // while (container.firstChild) {
 //   container.removeChild(container.firstChild);
@@ -9,6 +11,8 @@ import header from './header';
 document.addEventListener('DOMContentLoaded', renderContent);
 
 function renderContent() {
-  console.dir(document.getElementById('container'));
-  document.getElementById('container').innerHTML = header;
+  $('#container').append(header);
+  $('#container').append(categories);
+  // container.innerHTML = header;
+  // document.getElementById('container').appendChild(categories);
 }
