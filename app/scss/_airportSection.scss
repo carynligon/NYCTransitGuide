@@ -51,6 +51,7 @@
     }
     figure {
       background: $white;
+      box-shadow: 1px 2px 3px rgba($gray, 0.6);
       float: right;
       margin: 0 0 3rem 4rem;
       width: 400px;
@@ -58,6 +59,7 @@
         padding: 1.25rem;
       }
       p {
+        font-weight: bolder;
         margin: 0;
       }
       p:last-child {
