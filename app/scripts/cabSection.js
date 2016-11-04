@@ -1,7 +1,7 @@
 import taxi from './svg/icon-taxi';
 
 const cabSection = (`
-  <section class="cab-section">
+  <section class="cab-section" id="cabs">
     ${taxi}
     <h4>Cabs</h4>
     <h3>Cabs</h3>

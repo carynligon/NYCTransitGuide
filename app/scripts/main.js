@@ -1,10 +1,13 @@
 import $ from 'jquery';
+import smoothScroll from 'smooth-scroll';
 import header from './header';
 import categories from './categories';
 import airportSection from './airportSection';
 import cabSection from './cabSection';
 import subwaySection from './subwaySection';
 import legal from './legalSection';
+
+smoothScroll.init();
 
 const container = document.getElementById('container');
 

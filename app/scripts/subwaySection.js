@@ -1,7 +1,7 @@
 import subway from './svg/icon-subways';
 
 const subwaySection = (`
-  <section class="subway-section">
+  <section class="subway-section" id="subways">
     ${subway}
     <h4>Subways</h4>
     <h3>Subways</h3>
