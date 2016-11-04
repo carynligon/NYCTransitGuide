@@ -2,6 +2,7 @@ import $ from 'jquery';
 import header from './header';
 import categories from './categories';
 import airportSection from './airportSection';
+import cabSection from './cabSection';
 
 const container = document.getElementById('container');
 //
@@ -15,6 +16,7 @@ function renderContent() {
   $('#container').append(header);
   $('#container').append(categories);
   $('#container').append(airportSection);
+  $('#container').append(cabSection);
   // container.innerHTML = header;
   // document.getElementById('container').appendChild(categories);
 }

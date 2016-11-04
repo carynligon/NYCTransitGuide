@@ -1,12 +1,13 @@
-.airport-section {
+.airport-section, .cab-section {
   border-bottom: 3px solid $gray;
   font-size: 16px;
+  font-weight: lighter;
   line-height: 26px;
   padding: 8rem 13%;
   h3 {
     font-size: 42px;
     font-weight: lighter;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     text-align: center;
   }
   h4 {
@@ -32,7 +33,7 @@
     top: 3rem;
     width: 80px;
   }
-  .airport-content {
+  .airport-content, .cabs-content {
     margin-top: 7rem;
     .left-arrow, .right-arrow {
       height: 25px;
