@@ -48,7 +48,7 @@ const subwaySection = (`
           Try to have an idea of how many stops your train will have until you have to get off. When you are coming into a station the conductor will announce what station you are at however it is often hard to hear and mumbled. It’s best to keep an eye out the window when you pull in, there will be the station number on the poles inside of the station and sometimes will be tiled into the wall of the station.
       </div>
     </div>
-    <div>
+    <div class="app-section">
         <h6>Apps to Help You Navigate the Subway</h6>
           Citymapper<br><br>
 
