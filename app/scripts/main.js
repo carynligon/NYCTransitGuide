@@ -7,10 +7,6 @@ import subwaySection from './subwaySection';
 import legal from './legalSection';
 
 const container = document.getElementById('container');
-//
-// while (container.firstChild) {
-//   container.removeChild(container.firstChild);
-// }
 
 document.addEventListener('DOMContentLoaded', renderContent);
 
@@ -21,6 +17,4 @@ function renderContent() {
   $('#container').append(cabSection);
   $('#container').append(subwaySection);
   $('#container').append(legal);
-  // container.innerHTML = header;
-  // document.getElementById('container').appendChild(categories);
 }
