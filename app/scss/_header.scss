@@ -4,8 +4,8 @@ header {
   background-size: cover;
   box-sizing: border-box;
   color: $white;
-  height: 98vh;
-  padding: 3rem 10%;
+  height: 850px;
+  padding: 3rem 13%;
   img {
     width: 125px;
   }
@@ -19,5 +19,24 @@ header {
     font-size: 18px;
     line-height: 26px;
     width: 75%;
+  }
+}
+
+nav {
+  border-bottom: 3px solid $gray;
+  padding: 0 13%;
+  ul {
+    a {
+      color: $primaryText;
+      text-decoration: none;
+    }
+    li {
+      display: inline-block;
+      margin: 0 0.7rem;
+      padding: 1rem 0;
+      &:hover, &:active {
+        border-bottom: 3px solid $primaryColor;
+      }
+    }
   }
 }
