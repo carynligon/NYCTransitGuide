@@ -54,6 +54,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "smooth-scroll": "github:cferdinandi/smooth-scroll"
   }
 }

@@ -9,19 +9,19 @@ const categories = (`
   <div class="category-navigation">
     <h3>NYC Transportation Categories</h3>
     <ul>
-      <a href="#">
+      <a data-scroll href="#airports">
         <li>
           ${airplane}
           <h4>Airports</h4>
         </li>
       </a>
-      <a href="#">
+      <a data-scroll href="#cabs">
         <li>
           ${taxi}
           <h4>Cabs</h4>
         </li>
       </a>
-      <a href="#">
+      <a data-scroll href="#subways">
         <li>
           ${subway}
           <h4>Subways</h4>

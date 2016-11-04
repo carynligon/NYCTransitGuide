@@ -3,7 +3,7 @@ import leftArrow from './svg/icon-caret-left';
 import rightArrow from './svg/icon-caret-right';
 
 const airportSection = (`
-  <section class="airport-section">
+  <section class="airport-section" id="airports">
     ${airplane}
     <h4>Airports</h4>
     <h3>Airports</h3>
