@@ -35,26 +35,29 @@
   }
   .airport-content, .cabs-content, .subway-content {
     margin-top: 7rem;
-    .left-arrow, .right-arrow {
+    #left-arrow, #right-arrow {
       height: 25px;
       width: 25px;
+      &:hover {
+        cursor: pointer;
+      }
     }
-    .left-arrow {
-      position: absolute;
-      top: 131rem;
-      left: 53.5%;
+    #left-arrow {
+      position: relative;
+      top: -9rem;
+      right: 54%;
     }
-    .right-arrow {
-      position: absolute;
-      top: 131rem;
-      right: 10%;
+    #right-arrow {
+      position: relative;
+      top: -16.25rem;
+      left: 54%;
     }
     figure {
       background: $white;
       box-shadow: 1px 2px 3px rgba($gray, 0.6);
       float: right;
       margin: 0 0 3rem 4rem;
-      width: 400px;
+      width: 44%;
       figcaption {
         padding: 1.25rem;
       }
@@ -67,7 +70,7 @@
       }
       img {
         height: 375px;
-        width: 400px;
+        width: 100%;
       }
     }
   }
