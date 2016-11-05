@@ -10,8 +10,18 @@ import legal from './legalSection';
 smoothScroll.init();
 
 const container = document.getElementById('container');
+const carouselImages = ['assets/images/carousel-hangars.png','assets/images/carousel-terminal.png'];
 
 document.addEventListener('DOMContentLoaded', renderContent);
+
+function switchImage () {
+  let currImage = document.querySelector('figure').firstElementChild.src;
+  if (currImage.split('-').indexOf('terminal.png') !== -1) {
+    document.querySelector('figure').firstElementChild.setAttribute('src', carouselImages[0]);
+  } else {
+    document.querySelector('figure').firstElementChild.setAttribute('src', carouselImages[1]);
+  }
+}
 
 function renderContent() {
   $('#container').append(header);
@@ -20,4 +30,6 @@ function renderContent() {
   $('#container').append(cabSection);
   $('#container').append(subwaySection);
   $('#container').append(legal);
+  document.getElementById('left-arrow').addEventListener('click', switchImage);
+  document.getElementById('right-arrow').addEventListener('click', switchImage);
 }
