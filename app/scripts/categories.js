@@ -6,9 +6,9 @@ import taxi from './svg/icon-taxi';
 import train from './svg/icon-trains';
 
 const categories = (`
-  <div class="category-navigation">
+  <section class="category-navigation">
     <h3>NYC Transportation Categories</h3>
-    <ul>
+    <ul role="navigation">
       <a data-scroll href="#airports">
         <li>
           ${airplane}
@@ -40,7 +40,7 @@ const categories = (`
         </li>
       </a>
     </ul>
-  </div>
+  </section>
   `);
 
 export default categories;

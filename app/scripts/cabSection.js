@@ -4,7 +4,7 @@ const cabSection = (`
   <section class="cab-section" id="cabs">
     ${taxi}
     <h4>Cabs</h4>
-    <h3>Cabs</h3>
+    <h3 role="heading">Cabs</h3>
     <div class="cabs-content">
     New York City cabs are iconic. You often see in tv shows or movies people having a hard time catching a cab in NYC. Fortunately, it isn’t that hard in real life you just have to know what to look for.<br><br>
 

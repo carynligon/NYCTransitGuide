@@ -4,7 +4,7 @@ const subwaySection = (`
   <section class="subway-section" id="subways">
     ${subway}
     <h4>Subways</h4>
-    <h3>Subways</h3>
+    <h3 role="heading">Subways</h3>
     <div class="subway-content">
     <figure>
       <img src="/assets/images/nyc-transit-map.png"/>

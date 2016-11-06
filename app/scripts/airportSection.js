@@ -6,10 +6,10 @@ const airportSection = (`
   <section class="airport-section" id="airports">
     ${airplane}
     <h4>Airports</h4>
-    <h3>Airports</h3>
+    <h3 role="heading">Airports</h3>
     <div class="airport-content">
     <figure>
-      <img src="/assets/images/carousel-terminal.png"/>
+      <img src="/assets/images/carousel-terminal.png" alt="pictures of JFK Airport in New York City"/>
       ${leftArrow}
       <figcaption>
         <p>John F. Kennedy International Airport (JFK)</p>
