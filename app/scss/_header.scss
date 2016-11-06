@@ -52,6 +52,17 @@ nav {
       margin-top: 6rem;
     }
   }
+  nav {
+    padding: 0 5%;
+    ul {
+      a {
+        font-size: 12px;
+      }
+      li {
+        margin: 0 0.2rem;
+      }
+    }
+  }
 }
 
 @media (max-width: 600px) {
@@ -67,6 +78,18 @@ nav {
       display: block;
       margin: 0 auto;
       text-align: center;
+    }
+  }
+  nav {
+    ul {
+      li {
+        display: none;
+        &:last-child {
+          display: block;
+          margin: 0 auto;
+          width: 200px;
+        }
+      }
     }
   }
 }
