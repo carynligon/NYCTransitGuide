@@ -23,6 +23,12 @@ function switchImage () {
   }
 }
 
+function switchImageClick (e) {
+  if (e.which === 13) {
+    switchImage();
+  }
+}
+
 function renderContent() {
   $('#container').append(header);
   $('#container').append(categories);
@@ -32,4 +38,6 @@ function renderContent() {
   $('#container').append(legal);
   document.getElementById('left-arrow').addEventListener('click', switchImage);
   document.getElementById('right-arrow').addEventListener('click', switchImage);
+  document.getElementById('left-arrow').addEventListener('keyup', switchImageClick);
+  document.getElementById('right-arrow').addEventListener('keyup', switchImageClick)
 }

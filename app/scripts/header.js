@@ -6,11 +6,11 @@ const header = (`
   </header>
   <nav>
     <ul class="nav-list">
-      <a href="#"><li>Compare Car Insurance</a>
+      <a><li>Compare Car Insurance</li></a>
       <li>></li>
-      <a href="#"><li>New York</a>
+      <a><li>New York</li></a>
       <li>></li>
-      <a href="#"><li>New York City Transportation Guide</li></a>
+      <a><li>New York City Transportation Guide</li></a>
     </ul>
   </nav>
     `)

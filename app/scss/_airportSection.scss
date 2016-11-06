@@ -30,7 +30,7 @@
     height: 80px;
     margin: 0 auto;
     position: relative;
-    top: 3rem;
+    top: 1.5rem;
     width: 80px;
   }
   .airport-content, .cabs-content, .subway-content {
@@ -72,6 +72,23 @@
         height: 375px;
         object-fit: cover;
         width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  .airport-section {
+    .airport-content {
+      #left-arrow {
+        position: relative;
+        top: -9rem;
+        right: 54%;
+      }
+      #right-arrow {
+        position: relative;
+        top: -18rem;
+        left: 54%;
       }
     }
   }
