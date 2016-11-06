@@ -1,5 +1,5 @@
 .legal-section {
-  padding: 8rem 13%;
+  padding: 8rem 11%;
   p {
     font-size: 16px;
     font-weight: lighter;
@@ -8,5 +8,11 @@
   .copyright {
     font-weight: bolder;
     margin: 5rem 0 3rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .legal-section {
+    padding: 2rem 8%;
   }
 }
