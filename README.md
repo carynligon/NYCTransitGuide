@@ -1,5 +1,7 @@
 # NYC Transit Guide - The Zebra
 
+#### [View Live](http://nyc-transit-guide.surge.sh/)
+
 #### Process
 - Built HTML out modularly in separate JS files
 - Created an SCSS file for each JS file and added styles section by section
